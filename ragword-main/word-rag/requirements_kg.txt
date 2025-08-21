@@ -1,0 +1,32 @@
+# 知识图谱增强RAG系统依赖
+
+# 核心依赖
+langchain>=0.1.0
+langchain-openai>=0.0.5
+langchain-mistralai>=0.0.3
+langchain-core>=0.1.0
+
+# 向量存储和检索
+faiss-cpu>=1.7.4
+sentence-transformers>=2.2.2
+rank-bm25>=0.2.2
+
+# 知识图谱
+networkx>=3.0
+spacy>=3.5.0  # 可选，用于实体识别
+
+# 文档处理
+python-docx>=0.8.11
+python-dotenv>=1.0.0
+
+# 数据处理
+numpy>=1.24.0
+pandas>=2.0.0
+
+# 日志和工具
+tqdm>=4.65.0
+requests>=2.31.0
+
+# 可选：spaCy模型
+# python -m spacy download zh_core_web_sm  # 中文模型
+# python -m spacy download en_core_web_sm  # 英文模型
